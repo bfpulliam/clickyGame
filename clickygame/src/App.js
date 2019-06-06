@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import "./images.json";
+import image from "./images.json";
 import Album from "../src/components/Album";
 import Nav from "../src/components/Nav";
 import Wrapper from "../src/components/Wrapper";
