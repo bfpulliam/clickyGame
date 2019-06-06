@@ -11,6 +11,7 @@ All suggestions for improvement are welcome!
 
 ## Contact
 Developer/Full-stack Web Software Developer (in training)
+
 e-mail: bfpulliam@gmail.com
-LinkedIn: in development
+
 portfolio: bfpulliam.com
