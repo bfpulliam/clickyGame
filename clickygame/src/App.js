@@ -40,7 +40,7 @@ class App extends Component {
 		if (newScore >= this.state.topScore) {
 			this.setState({ topScore:newScore });
 		}
-		else if (newScore === 25) {
+		else if (newScore === 24) {
 			this.setState({ status: "YOU ARE THE CHAMPION... OF THE WORLD!!"});
 		}
 		this.shuffleImages();
@@ -50,7 +50,7 @@ class App extends Component {
 		this.setState({
 			currentScore: 0,
 			topScore: this.state.topScore,
-			status:"",
+			status:"You guessed incorrectly!",
 			clicked: [],
 		});
 		this.shuffleImages();
@@ -59,7 +59,7 @@ class App extends Component {
 	handleClick = id => {
 	if (this.state.clicked.indexOf(id) === -1) {
 		this.handleIncrement();
-		this.setState({ clicked: this.state.clicked.push(id)});
+		this.setState({ clicked: this.state.clicked.concat(id)});
 	} else {
 		this.reset();
 	}
@@ -71,15 +71,18 @@ class App extends Component {
 
 			<Nav
 				title="Clicky Game"
-				score={this.state.currentScore}
 				topScore={this.state.topScore}
+				score={this.state.currentScore}
+
 				correctIncorrect={this.state.correctIncorrect}
 			/>
 
 			<Title> Click on an album cover to earn points.  You are only allowed to click on each album cover once!
 			</Title>
 
-			<div>
+			<div className = "row">
+				<div className = "column">
+
 				{this.state.image.map(image => (
 					<Album
 						key ={ image.id }
@@ -90,6 +93,8 @@ class App extends Component {
 						shuffleImages = { this.shuffleImages }
 					/>
 				))}
+				</div>
+
 			</div>
 		</Wrapper>
 		);

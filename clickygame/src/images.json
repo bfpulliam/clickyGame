@@ -35,11 +35,11 @@
 	"picture": "./assets/images/Bitches-brew.jpg"
 },
 {	"id": 10,
-	"picture": "./public/images/download.jpg"
+	"picture": "./assets/images/download.jpg"
 },
 {
 	"id": 11,
-	"picture": "public/assets/images/Fear-of-Music.jpg"
+	"picture": "./assets/images/Fear-of-Music.jpg"
 },
 {
 	"id": 12,
@@ -67,33 +67,29 @@
 },
 {
 	"id": 18,
-	"picture": "./assets/images/mm.jpg"
-},
-{
-	"id": 19,
 	"picture": "./assets/images/Nirvana.jpg"
 },
 {
-	"id": 20,
+	"id": 19,
 	"picture": "./assets/images/Parallel-Lines.jpg"
 },
 {
-	"id": 21,
+	"id": 20,
 	"picture": "./assets/images/Pink_Floyd_-_Dark_Side_of_the_Moon.jpg"
 },
 {
-	"id": 22,
+	"id": 21,
 	"picture": "./assets/images/Rumours.jpg"
 },
 {
-	"id": 23,
+	"id": 22,
 	"picture": "./assets/images/signothetimes-560x560.jpg"
 },
 {
-	"id": 24,
+	"id": 23,
 	"picture": "./assets/images/Slave-to-the-Rhythm.jpg"
 },
 {
-	"id": 25,
+	"id": 24,
 	"picture": "./assets/images/The-Clash.jpg"
 }]
