@@ -10,8 +10,8 @@ All suggestions for improvement are welcome!
 
 
 ## Contact
-Developer/Full-stack Web Software Developer (in training)
+Full-stack Web Software Developer
 
 e-mail: bfpulliam@gmail.com
 
-portfolio: bfpulliam.com
+portfolio: bpulliam.com
